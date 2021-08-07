@@ -1,10 +1,15 @@
-@media  screen and (min-width: 60px) {
+@media  screen and (min-width: 85px) {
  
 
     body {
         background-color:mediumturquoise;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        @media screen and (min-width:200px){
+            background-color: #3ee0bd;
+        }
     }
+
+
     
     .container {
         width: auto;
@@ -14,18 +19,24 @@
     .menu {
     border: 1px solid #fff3b0;
     padding: 1em;
-    margin: 1em;
-    background-color: #3ee0bd;
+    width : 60%;
+    margin: auto;
+    margin-top: 1em;
+    
+    background-color: #00b4d8;
     }
 
     .side-bar {
-            border: 1px solid #fff3b0;
+            border: 1px solid #3ee0bd;
             padding: 1em;
-            margin: 1em;
-            background-color:aqua;
+            margin: auto;
+            width: 60%;
+            margin-top: 1em;
+            background-color:#0077b6;
+            
     }
     .content{
-            border: 1px solid #fff3b0;
+            border: 1px solid #3ee0bd;
             padding: 1em;
             margin: 1em;
             background-color:brown;
@@ -33,7 +44,7 @@
 
     
 
-    .footer {
+    .center {
         display: flex;
         flex: 1
         
@@ -41,31 +52,34 @@
     
     
     .footer {
-            border: 1px solid #fff3b0;
-            padding: 1em;
+            border: 1px solid #3ee0bd;
+            padding: 0.1em;
             margin: 1em;
             background-color: #e09f3e;
             }
 
             .Place1 {
-                border: 1px solid #fff3b0;
+                border: 1px solid #3ee0bd;
                 padding: 1em;
                 margin: 1em;
-                background-color: #613ee0;
+                background-color: #4361ee;
+                width: auto;
                 }
 
                 .Place2 {
-                    border: 1px solid #fff3b0;
+                    border: 1px solid #3ee0bd;
                     padding: 1em;
                     margin: 1em;
-                    background-color: #e03ed2;
+                    width: auto;
+                    background-color: #90e0ef;
                     }
 
                     .Place3 {
-                        border: 1px solid #fff3b0;
+                        border: 1px solid #3ee0bd;
                         padding: 1em;
                         margin: 1em;
-                        background-color: #5ee03e;
+                        width: auto;
+                        background-color: #023e8a;
                         }
 
     }
@@ -76,7 +90,12 @@
     @media screen and (min-width: 800px) {
         .footer {
             display: flex;
-            background-color: burlywood;
+            background-color: #3ee0bd;
+            orientation:10px;
+            aspect-ratio:initial ;
+            width: auto;
             }
     
+
+
     }
