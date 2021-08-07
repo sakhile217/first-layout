@@ -17,7 +17,7 @@
     }
     
     .menu {
-    border: 1px solid #fff3b0;
+    border: 0.1px solid #3ee0bd;
     padding: 1em;
     width : 60%;
     margin: auto;
@@ -27,7 +27,7 @@
     }
 
     .side-bar {
-            border: 1px solid #3ee0bd;
+            border: 0.1px solid #3ee0bd;
             padding: 1em;
             margin: auto;
             width: 60%;
@@ -55,7 +55,7 @@
             border: 1px solid #3ee0bd;
             padding: 0.1em;
             margin: 1em;
-            background-color: #e09f3e;
+            background-color: #00b4d8;
             }
 
             .Place1 {
